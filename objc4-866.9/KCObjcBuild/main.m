@@ -10,14 +10,16 @@
  ⑤: 进入不到源码 微信联系
  iOS进阶内容重磅分享 微信认准: KC_Cooci 麻烦来一个 👍
  */
+#import "Man.h"
 
 #import <Foundation/Foundation.h>
 
 int main(int argc, const char * argv[]) {
-    @autoreleasepool {
-        NSLog(@"Hello, KCObjcBuild!");
-        NSObject *objc = [NSObject alloc];
-        NSLog(@"开心调试 %@ 底层源码",objc);
-    }
+//    @autoreleasepool {
+        NSLog(@"Hello, KCObjcBuild!xx");
+//        NSObject *objc = [NSObject alloc];
+//        NSLog(@"开心调试 %@ 底层源码",objc);
+        Man *man = [[Man alloc] init];
+//    }
     return 0;
 }
